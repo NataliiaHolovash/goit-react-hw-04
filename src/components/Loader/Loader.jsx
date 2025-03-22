@@ -1,17 +1,14 @@
-import { Hourglass } from 'react-loader-spinner';
+import ReactLoading from 'react-loading';
 import style from './Loader.module.css';
 
 const Loader = () => {
   return (
     <div className={style.backdrop}>
-      <Hourglass
-        visible={true}
-        height='80'
-        width='80'
-        ariaLabel='hourglass-loading'
-        wrapperStyle={{}}
-        wrapperClass=''
-        colors={['#306cce', '#72a1ed']}
+      <ReactLoading
+        type="spin"
+        color="#306cce"
+        height={80}
+        width={80}
       />
     </div>
   );
