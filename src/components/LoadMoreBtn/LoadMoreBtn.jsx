@@ -1,5 +1,5 @@
 import { Button } from '@mui/material';
-import style from './LoadMoreButton.module.css';
+import style from './LoadMoreBtn.module.css';
 
 const LoadMoreButton = ({ onPage }) => {
   return (

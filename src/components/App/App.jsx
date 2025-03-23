@@ -3,7 +3,7 @@ import { fetchGallery } from '../../unsplash-api';
 import SearchBar from '../SearchBar/SearchBar';
 import ImageGallery from '../ImageGallery/ImageGallery';
 import Loader from '../Loader/Loader';
-import LoadMoreBtn from '../LoadMoreButton/LoadMoreButton';
+import LoadMoreBtn from '../LoadMoreBtn/LoadMoreBtn';
 import ImageModal from '../ImageModal/ImageModal';
 import ErrorMessage from '../ErrorMessage/ErrorMessage';
 import style from './App.module.css';
