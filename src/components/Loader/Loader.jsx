@@ -1,14 +1,13 @@
-import ReactLoading from 'react-loading';
+import { ClipLoader } from 'react-spinners';
 import style from './Loader.module.css';
 
 const Loader = () => {
   return (
     <div className={style.backdrop}>
-      <ReactLoading
-        type="spin"
-        color="#306cce"
-        height={80}
-        width={80}
+      <ClipLoader
+        color="#306cce"   
+        size={80}         
+        speedMultiplier={1} 
       />
     </div>
   );
